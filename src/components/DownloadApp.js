@@ -13,9 +13,6 @@ import Link from 'next/link';
 function DownloadApp() {
     const { t, i18n } = useTranslation();
     const isRTL = i18n.language === 'ar';
-
-
-
     return (
         <section id="downloadApp" className="py-20 bg-gradient-to-br from-gray-50 to-orange-50 overflow-hidden">
             <div className="container mx-auto px-4">

@@ -94,7 +94,7 @@ function ContactUs({ contactRef }) {
             ref={contactRef}
             id='contact'
             style={{ backgroundColor: 'var(--background-default)', marginTop: '100px' }}
-            dir={isRTL ? 'rtl' : 'ltr'}
+            // dir={isRTL ? 'ltr' : 'ltr'}
         >
             <div className="max-w-6xl mx-auto">
                 <div className={`grid lg:grid-cols-2 gap-16 items-center ${isRTL ? 'lg:grid-flow-col-dense' : ''}`}>
@@ -147,7 +147,7 @@ function ContactUs({ contactRef }) {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                     </svg>
                                 </div>
-                                <div className={isRTL ? 'text-right' : 'text-left'}>
+                                <div className={isRTL ? 'text-left' : 'text-left'}>
                                     <h3 className="font-semibold" style={{ color: 'var(--secondary-dark)' }}>
                                         {t('contactUs.phone')}
                                     </h3>
@@ -269,7 +269,7 @@ function ContactUs({ contactRef }) {
                                 ) : (
                                     <div className={`flex items-center justify-center ${isRTL ? 'space-x-reverse' : ''} space-x-2`}>
                                         <span>{t('contactUs.form.sendMessage')}</span>
-                                        <Send className={`w-5 h-5 ${isRTL ? 'scale-x-[-1] mr-2' : 'ml-2'}`} />
+                                        {/* <Send className={`w-5 h-5 ${isRTL ? 'scale-x-[-1] mr-2' : 'ml-2'}`} /> */}
                                     </div>
                                 )}
                             </button>

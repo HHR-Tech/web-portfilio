@@ -67,13 +67,12 @@ function About() {
                         </div>
                     </div>
 
-                    {/* Image Section */}
                     <div className={`relative ${isRTL ? 'lg:order-1' : 'lg:order-2'}`}>
                         <div className="relative">
                  
-                            {/* Main Image Container */}
+                           
                             <div className="w-full max-w-2xl mx-auto">
-                                <div className="relative overflow-hidden rounded-2xl h-96 md:h-[400px] lg:h-[500px]">
+                                <div className="relative overflow-hidden rounded-2xl h-96 md:h-[400px] lg:h-[400px]">
                                     <Image 
                                         src={about} 
                                         alt={t('about.subtitle')}
