@@ -12,27 +12,20 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: 'كبسه - Kabsa Food Ordering',
   description: 'Authentic Middle Eastern cuisine delivery',
-}
-
-export async function generateStaticParams() {
-  return [
-    { locale: 'en' },
-    { locale: 'ar' }
-  ];
+  icons: {
+    icon: '/images/Logo.webp',
+    shortcut: '/images/Logo.webp',
+    apple: '/images/Logo.webp',
+  },
 }
 
 export default function RootLayout({
   children,
-  params,
 }: {
   children: React.ReactNode
-  params: { locale: string }
 }) {
-  const { locale } = params;
-  const direction = locale === 'ar' ? 'rtl' : 'ltr';
-
   return (
-    <html lang={locale} dir={direction}>
+    <html lang="en">
       <body className={`${montserrat.variable} font-montserrat`}>
         <TranslationProvider>
           {children}
