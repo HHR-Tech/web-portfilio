@@ -8,8 +8,8 @@
     "feature": "Features",
     "pricing": "brands",
     "review": "Reviews",
-    "downloadApp": "Download App",
-    "contact": "Contact"
+    "contact": "Contact",
+    "downloadApp": "Download App"
   },
   "buttons": {
     "startFreeTrial": "Order Now",
@@ -147,40 +147,7 @@
     "Location ": "Location ",
     "submit": "Submit",
     "successMessage": "Message sent successfully! We'll get back to you soon.",
-    "errorMessage": "Something went wrong. Please try again.",
-    "submitting": "Submitting..."
-  },
-  "modalCaptin": {
-    "title": "Register Captin",
-    "name": "Full Name",
-    "namePlaceholder": "Enter your full name",
-    "email": "Email Address",
-    "scooter": "Scooter",
-    "economicalCar": "Economical Car",
-    "electricCar": "Electric Car",
-    "other": "Other",
-    "ios": "iOS",
-    "android": "Android",
-    "emailPlaceholder": "Enter your email address",
-    "phone": "Mobile Number",
-    "phonePlaceholder": "Enter your mobile number",
-    "vehicleType": "Type of Vehicle",
-    "vehicleTypePlaceholder": "Select your vehicle type",
-    "vehicleModel": "Vehicle Model",
-    "vehicleModelPlaceholder": "Enter your vehicle model",
-    "vehicleYear": "Vehicle Year",
-    "vehicleYearPlaceholder": "Enter your vehicle year",
-    "vehicleColor": "Vehicle Color",
-    "vehicleColorPlaceholder": "Enter your vehicle color",
-    "vehicleNumber": "Vehicle Number",
-    "vehicleNumberPlaceholder": "Enter your vehicle number",
-    "address": "Address",
-    "addressPlaceholder": "Enter your address",
-    "submit": "Submit",
-    "successMessage": "Message sent successfully! We'll get back to you soon.",
-    "errorMessage": "Something went wrong. Please try again.",
-    "submitting": "Submitting..."
-
+    "errorMessage": "Something went wrong. Please try again."
   },
   "clients": {
     "title": "Top Restaurant",
@@ -201,47 +168,13 @@
   "privacyPolicy": "Privacy Policy",
   "termsConditions": "Terms & Conditions",
   "career": "Career",
-  "siteName": "Kabseh",
+  "siteName": "Your Site Name",
   "allRightsReserved": "All Rights Reserved",
-  "designedBy": "Designed By Kabseh Team",
+  "designedBy": "Designed By",
   "home": "Home",
   "cookies": "Cookies",
   "help": "Help",
   "faqs": "FAQs"
 },
- "downloadApp": {
-      "badge": "Mobile App",
-      "title": "Download Our App Today",
-      "subtitle": "Experience the best food delivery service with our mobile app. Order faster, track easier, and enjoy exclusive mobile-only deals.",
-      "security": "100% Secure",
-      "features": {
-        "discover": {
-          "title": "Discover Local Flavors",
-          "description": "Scroll through your city's favorite spots. Support local restaurants with every order!"
-        },
-        "deals": {
-          "title": "Unlock Daily Deals",
-          "description": "What you see is what you pay. No hidden fees, no commission... Just fair prices and real food, straight from your neighborhood."
-        },
-        "track": {
-          "title": "Track Every Bite",
-          "description": "From kitchen to your doorstep, always fresh. Fast, fair, and always fresh."
-        }
-      },
-      "cta": {
-        "title": "Get The App & Start Ordering",
-        "description": "Join thousands of food lovers who trust our app for fast, reliable delivery. Available on both iOS and Android platforms."
-      },
-      "buttons": {
-        "downloadOn": "Download on the",
-        "getItOn": "Get it on",
-        "install": "Install Now"
-      },
-      "stats": {
-        "users": "10K+ Active Users",
-        "rating": "4.8 Rating"
-      },
-      "appDescription": "Fast food delivery"
-    },
   "appName": "Kabseh"
 }
