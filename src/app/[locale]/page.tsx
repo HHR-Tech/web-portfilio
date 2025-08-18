@@ -1,16 +1,15 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import HeroSection from "../components/Hero";
-import Navigation from "../components/Navgiation";
-import About from "../components/About";
-import EasySteps from "../components/EasySteps";
-import ContactUs from "../components/ContactUs";
-import RegisterResturant from "../components/RegisterResturant";
-import RegisterCaptin from "../components/RegisterCaptin";
-import Clients from "../components/Clients";
-import DownloadApp from "../components/DownloadApp";
+import HeroSection from "../../components/Hero";
+import Navigation from "../../components/Navgiation";
+import About from "../../components/About";
+import EasySteps from "../../components/EasySteps";
+import ContactUs from "../../components/ContactUs";
+import RegisterResturant from "../../components/RegisterResturant";
+import RegisterCaptin from "../../components/RegisterCaptin";
+import Clients from "../../components/Clients";
 import { Toaster } from "react-hot-toast";
-import Footer from "../components/Footer";
+import Footer from "../../components/Footer";
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const contactRef = useRef(null);
@@ -29,6 +28,10 @@ export default function Home() {
 
 
 
+
+
+
+
   if (isLoading) {
     return (
       <div className="fixed inset-0 bg-white flex items-center justify-center z-50">
@@ -43,12 +46,11 @@ export default function Home() {
       <Navigation />
       <HeroSection scrollToContact={scrollToContact}/>
       <About />
-      <EasySteps /> 
+      <EasySteps />
+      <ContactUs contactRef={contactRef}/>
       <RegisterResturant />
       <RegisterCaptin />
       <Clients />
-      <DownloadApp />
-      <ContactUs contactRef={contactRef}/>
       <Footer/>
     </div>
   );

@@ -21,11 +21,13 @@ export default function HeroSection({scrollToContact}) {
   const [currentSlide, setCurrentSlide] = useState(0)
   const isRTL = i18n.language === 'ar'
 
-  const screenshots = isRTL ? [
+  const screenshots = 
+  isRTL ? [
     screenshot1_ar,
     screenshot2_ar,
     screenshot3_ar,
-    screenshot4_ar] : [
+    screenshot4_ar
+  ] : [
     screenshot1_en,
     screenshot2_en,
     screenshot3_en,
@@ -78,9 +80,9 @@ export default function HeroSection({scrollToContact}) {
               </p>
 
               <div className={`flex flex-col sm:flex-row gap-4 justify-center ${isRTL ? 'lg:justify-end' : 'lg:justify-start'}`}>
-                <button className="btn-primary-gradient px-8 py-4 rounded-full text-white font-semibold hover:shadow-xl transition-all duration-300 slideInLeft">
+                {/* <button className="btn-primary-gradient px-8 py-4 rounded-full text-white font-semibold hover:shadow-xl transition-all duration-300 slideInLeft">
                   {t('buttons.readMore')}
-                </button>
+                </button> */}
                 <button onClick={scrollToContact} className="btn-secondary-gradient px-8 py-4 rounded-full text-white font-semibold hover:shadow-xl transition-all duration-300 slideInRight">
                   {t('buttons.contactUs')}
                 </button>
