@@ -56,8 +56,8 @@ function DownloadApp() {
                                         </svg>
                                     </div>
                                     <div className="text-left">
-                                        <div className="text-xs text-gray-300">{t('downloadApp.buttons.downloadOn')}</div>
-                                            <div className="font-semibold">App Store</div>
+                                        <div className="text-xs text-gray-300">{t('downloadApp.buttons.appStore.title')}</div>
+                                            <div className="font-semibold">{t('downloadApp.buttons.appStore.name')}</div>
                                         </div>
                                     </button>
                                 </Link>
@@ -69,8 +69,8 @@ function DownloadApp() {
                                             </svg>
                                         </div>
                                         <div className="text-left">
-                                            <div className="text-xs text-gray-300">{t('downloadApp.buttons.getItOn')}</div>
-                                            <div className="font-semibold">Google Play</div>
+                                            <div className="text-xs text-gray-300">{t('downloadApp.buttons.googlePlay.title')}</div>
+                                            <div className="font-semibold">{t('downloadApp.buttons.googlePlay.name')}</div>
                                         </div>
                                     </button>
                                 </Link>

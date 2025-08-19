@@ -11,13 +11,13 @@ const Clients = () => {
   const restaurantBrands = [
     {
       id: 1,
-      name: t("brands.Al Thawaq"),
+      name: t("brands.Al-Thawaq"),
       logo: "/images/partners/Al-Thawaq.jpg",
       alt: "Al Thawaq"
     },
     {
       id: 2,
-      name: t("brands.Army Burger"),
+      name: t("brands.Army-Burger"),
       logo: "/images/partners/Army-Burger.jpg",
       alt: "Army Burger"
     },
@@ -29,31 +29,31 @@ const Clients = () => {
     },
     {
       id: 4,
-      name: t("brands.Farooj Abu Al-Abed"),
+      name: t("brands.Farooj-Abu-Al-Abed"),
       logo: "/images/partners/Abu-Al-Abed.jpg",
       alt: "Farooj Abu Al-Abed"
     },
     {
       id: 5,
-      name: t("brands.Salwa & Fairuz"),
+      name: t("brands.Salwa&Fairuz"),
       logo: "/images/partners/Salwa-Fairuz.jpg",
       alt: "Salwa & Fairuz"
     },
     {
       id: 6,
-      name: t("brands.Chef Eyad"),
+      name: t("brands.Chef-Eyad"),
       logo: "/images/partners/Chef-Eyad.jpg",
       alt: "Chef Eyad"
     },
     {
       id: 7,
-      name: t("brands.Al-Hanini Restaurant"),
+      name: t("brands.Al-Hanini-Restaurant"),
       logo: "/images/partners/Al-Hanini-Restaurant.jpg",
       alt: "Al-Hanini Restaurant"
     },
     {
       id: 8,
-      name: t("brands.Almond Coffee House"),
+      name: t("brands.Almond-Coffee-House"),
       logo: "/images/partners/Almond-Coffee-House.jpg",
       alt: "Almond Coffee House"
     },
@@ -198,9 +198,9 @@ const Clients = () => {
           <p className="text-lg text-[var(--text-body)] opacity-70 max-w-2xl mx-auto">
             {t('clients.description')}
           </p>
-          <button className="mt-8 px-8 py-4 bg-[var(--primary)] hover:bg-[var(--secondary-dark)] text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+          {/* <button className="mt-8 px-8 py-4 bg-[var(--primary)] hover:bg-[var(--secondary-dark)] text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
             {t('clients.button')}
-          </button>
+          </button> */}
         </div>
       </div>
 

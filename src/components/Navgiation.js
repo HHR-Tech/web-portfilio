@@ -71,7 +71,7 @@ export default function Navigation() {
     { id: 'home', label: t('navigation.home') || 'Home' },
     { id: 'about', label: t('navigation.about') || 'About' },
     { id: 'feature', label: t('navigation.feature') || 'Feature' },
-    { id: 'brands', label: t('navigation.pricing') || 'Pricing' },
+    { id: 'brands', label: t('navigation.partners') || 'Partners' },
     { id: 'downloadApp', label: t('navigation.downloadApp') || 'Download App' },
     { id: 'contact', label: t('navigation.contact') || 'Contact' }
   ]

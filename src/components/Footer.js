@@ -72,16 +72,21 @@ export default function Footer() {
               <div className="space-y-3 text-white/90">
                 <div className={`flex items-start gap-3`}>
                   <MapPin className="w-4 h-4 text-white mt-1 flex-shrink-0" />
-                  <span className="leading-relaxed">{t('footer.addressText')}</span>
+                  <a href={`https://maps.google.com/?q=${t('footer.addressText')}`} target="_blank" rel="noopener noreferrer" className="hover:text-white/100 transition-colors">
+                    <span className="leading-relaxed">{t('footer.addressText')}</span>
+                  </a>
                 </div>
-                <div className={`flex items-center  gap-3`}>
+                <div className={`flex items-center gap-3`}>
                   <Phone className={`w-4 h-4 text-white flex-shrink-0 ${isRTL ? 'flex-row-reverse' : ''}`} />
-                  <span dir="ltr">+0962 79 0311 101
-                  </span>
+                  <a href={`tel:${t('phone.support').replace(/\s+/g, '')}`} className="hover:text-white/100 transition-colors">
+                    <span dir="ltr">{t('phone.support')}</span>
+                  </a>
                 </div>
                 <div className={`flex items-center gap-3`}>
                   <Mail className="w-4 h-4 text-white flex-shrink-0" />
-                  <span dir="ltr">info@kabseh.com</span>
+                  <a href={`mailto:${t('email.support')}`} className="hover:text-white/100 transition-colors">
+                    <span dir="ltr">{t('email.support')}</span>
+                  </a>
                 </div>
               </div>
 

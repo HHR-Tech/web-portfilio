@@ -1,25 +1,26 @@
 {
   "welcome": "Welcome",
   "hello": "Hello {{name}}",
+  "email": "Email",
+  "email.company": "info@kabseeh.com",
+  "email.support": "info@kabseeh.com",
+  "phone": "Phone",
+  "phone.support": "+962 790 311 101",
+    "metadata": {
+    "title": "كبسه - Kabsa Food Ordering",
+    "description": "The best food delivery app  .أفضل تطبيق لتوصيل الطعام"
+  },
   "navigation": {
     "home": "Home",
     "about": "About",
     "menu": "Menu",
     "feature": "Features",
-    "pricing": "brands",
+    "pricing": "Pricing",
+    "brands": "Brands",
+    "partners": "Partners",
     "review": "Reviews",
-    "downloadApp": "Download App",
-    "contact": "Contact"
-  },
-  "brands": {
-    "Al Thawaq": "Al Thawaq",
-    "Army Burger": "Army Burger",
-    "Deek": "Deek",
-    "Farooj Abu Al-Abed": "Farooj Abu Al-Abed",
-    "Salwa & Fairuz": "Salwa & Fairuz",
-    "Chef Eyad": "Chef Eyad",
-    "Al-Hanini Restaurant": "Al-Hanini Restaurant",
-    "Almond Coffee House": "Almond Coffee House"
+    "contact": "Contact",
+    "downloadApp": "Download App"
   },
   "buttons": {
     "startFreeTrial": "Order Now",
@@ -63,6 +64,43 @@
       "description": "Track your order from kitchen to doorstep with live updates and estimated delivery times."
     }
   },
+     "downloadApp": {
+      "title": "Download the App",
+      "description": "Get the Kabseh app now and enjoy a seamless food ordering experience.",
+      "subtitle": "Kabseh is the perfect solution to satisfy your cravings.",
+      "security": "Data Security",
+      "descriptionSecurity": "We take your data security seriously. All personal information and financial transactions are encrypted and protected.",
+      "appDescription": "Kabseh is the perfect solution to satisfy your cravings.",
+      "button": {
+        "text": "Download Now",
+        "link": "https://example.com/download",
+        "install": "Install"
+      },
+      "cta": {
+        "title": "Start Now",
+        "description": "Download the Kabseh app and start exploring delicious dishes."
+      },
+      "buttons": {
+        "install":"Install",
+        "appStore": {
+          "text": "Download on the App Store",
+          "title": "Download on the App Store",
+          "name": "appStore",
+          "link": "https://apps.apple.com/app/id123456789",
+          "install": "Install"
+        },
+        "googlePlay": {
+          "text": "Download on Google Play",
+          "title": "Download on Google Play",
+          "name": "googlePlay",
+          "link": "https://play.google.com/store/apps/details?id=com.example.kabsa"
+        }       
+      },
+      "stats": {
+        "users": "1000+",
+        "rating": "4.5"
+      }
+    },
   "process": {
     "install": {
       "title": "Download the App",
@@ -136,6 +174,19 @@
     "title3": "Enjoy The Features",
     "description3": "Browse our extensive menu of traditional dishes, read reviews, and select your favorite meals to add to cart."
   },
+
+    "brands": {
+    "title": "Brands",
+    "description": "Explore a variety of trusted brands offering the most delicious dishes.",
+    "Al-Thawaq": "Al Thawaq",
+    "Army-Burger": "Army Burger",
+    "Deek": "Deek",
+    "Farooj-Abu-Al-Abed": "Farooj Abu Al-Abed",
+    "Salwa&Fairuz": "Salwa & Fairuz",
+    "Chef-Eyad": "Chef Eyad",
+    "Al-Hanini-Restaurant": "Al Hanini Restaurant",
+    "Almond-Coffee-House": "Almond Coffee House"
+  },
   "registerResturant": {
     "title": "Join Kabseh JO!",
     "description1": "Kabseh takes zero commission and no registration fees.",
@@ -157,40 +208,7 @@
     "Location ": "Location ",
     "submit": "Submit",
     "successMessage": "Message sent successfully! We'll get back to you soon.",
-    "errorMessage": "Something went wrong. Please try again.",
-    "submitting": "Submitting..."
-  },
-  "modalCaptin": {
-    "title": "Register Captin",
-    "name": "Full Name",
-    "namePlaceholder": "Enter your full name",
-    "email": "Email Address",
-    "scooter": "Scooter",
-    "economicalCar": "Economical Car",
-    "electricCar": "Electric Car",
-    "other": "Other",
-    "ios": "iOS",
-    "android": "Android",
-    "emailPlaceholder": "Enter your email address",
-    "phone": "Mobile Number",
-    "phonePlaceholder": "Enter your mobile number",
-    "vehicleType": "Type of Vehicle",
-    "vehicleTypePlaceholder": "Select your vehicle type",
-    "vehicleModel": "Vehicle Model",
-    "vehicleModelPlaceholder": "Enter your vehicle model",
-    "vehicleYear": "Vehicle Year",
-    "vehicleYearPlaceholder": "Enter your vehicle year",
-    "vehicleColor": "Vehicle Color",
-    "vehicleColorPlaceholder": "Enter your vehicle color",
-    "vehicleNumber": "Vehicle Number",
-    "vehicleNumberPlaceholder": "Enter your vehicle number",
-    "address": "Address",
-    "addressPlaceholder": "Enter your address",
-    "submit": "Submit",
-    "successMessage": "Message sent successfully! We'll get back to you soon.",
-    "errorMessage": "Something went wrong. Please try again.",
-    "submitting": "Submitting..."
-
+    "errorMessage": "Something went wrong. Please try again."
   },
   "clients": {
     "title": "Top Restaurant",
@@ -199,59 +217,25 @@
     "button": "View All Partners"
   },
   "footer": {
-    "address": "Address",
-    "addressText": "Abdul Monem Riad Street , Amman Jordan",
-    "quickLinks": "Quick Links",
-    "popularLinks": "Popular Links",
-    "newsletter": "Newsletter",
-    "newsletterText": "Our goal is to support local restaurants in Amman and provide you with the best and fastest food delivery service 🫰🧡. Order now and experience the local taste.",
-    "emailPlaceholder": "Your Email",
-    "aboutUs": "About Us",
-    "contactUs": "Contact Us",
-    "privacyPolicy": "Privacy Policy",
-    "termsConditions": "Terms & Conditions",
-    "career": "Career",
-    "siteName": "Your Site Name",
-    "allRightsReserved": "All Rights Reserved",
-    "designedBy": "Designed By",
-    "home": "Home",
-    "cookies": "Cookies",
-    "help": "Help",
-    "faqs": "FAQs"
-  },
- "downloadApp": {
-      "badge": "Mobile App",
-      "title": "Download Our App Today",
-      "subtitle": "Experience the best food delivery service with our mobile app. Order faster, track easier, and enjoy exclusive mobile-only deals.",
-      "security": "100% Secure",
-      "features": {
-        "discover": {
-          "title": "Discover Local Flavors",
-          "description": "Scroll through your city's favorite spots. Support local restaurants with every order!"
-        },
-        "deals": {
-          "title": "Unlock Daily Deals",
-          "description": "What you see is what you pay. No hidden fees, no commission... Just fair prices and real food, straight from your neighborhood."
-        },
-        "track": {
-          "title": "Track Every Bite",
-          "description": "From kitchen to your doorstep, always fresh. Fast, fair, and always fresh."
-        }
-      },
-      "cta": {
-        "title": "Get The App & Start Ordering",
-        "description": "Join thousands of food lovers who trust our app for fast, reliable delivery. Available on both iOS and Android platforms."
-      },
-      "buttons": {
-        "downloadOn": "Download on the",
-        "getItOn": "Get it on",
-        "install": "Install Now"
-      },
-      "stats": {
-        "users": "10K+ Active Users",
-        "rating": "4.8 Rating"
-      },
-      "appDescription": "Fast food delivery"
-    },
+  "address": "Address",
+  "addressText": "Abdul Monem Riad Street , Amman Jordan",
+  "quickLinks": "Quick Links",
+  "popularLinks": "Popular Links",
+  "newsletter": "Newsletter",
+  "newsletterText": "Our goal is to support local restaurants in Amman and provide you with the best and fastest food delivery service 🫰🧡. Order now and experience the local taste.",
+  "emailPlaceholder": "Your Email",
+  "aboutUs": "About Us",
+  "contactUs": "Contact Us",
+  "privacyPolicy": "Privacy Policy",
+  "termsConditions": "Terms & Conditions",
+  "career": "Career",
+  "siteName": "Kabseh",
+  "allRightsReserved": "All Rights Reserved",
+  "designedBy": "Designed By Kabseh",
+  "home": "Home",
+  "cookies": "Cookies",
+  "help": "Help",
+  "faqs": "FAQs"
+},
   "appName": "Kabseh"
 }
